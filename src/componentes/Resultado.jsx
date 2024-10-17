@@ -5,7 +5,8 @@ const Resultado = ({operacion, calculo}) => {
   return (
     <>
     <br />
-    <span>{operacion}:{calculo}</span>
+    <span className={`resultado-${operacion.toLowerCase()}`}>{operacion}: {calculo}</span>
+
     
     </>
   )
@@ -14,6 +15,7 @@ const Resultado = ({operacion, calculo}) => {
 Resultado.propTypes = {
     operacion: PropTypes.string,
     calculo: PropTypes.number
+    
 }
 
 export default Resultado

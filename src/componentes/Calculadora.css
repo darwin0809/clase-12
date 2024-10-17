@@ -1,0 +1,39 @@
+
+.calculadora {
+    width: auto; /* Ancho máximo de la calculadora */
+    margin: 20px auto; /* Centrado automático */
+    padding: 20px; /* Espacio interior */
+    border: 1px solid #ccc; /* Borde de la calculadora */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de profundidad */
+    background-color: #494545; /* Color de fondo suave */
+  }
+  
+  label {
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 10px; /* Espacio entre etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+  }
+  
+  input[type='number'] {
+    width: 80%; /* Ancho completo */
+    padding: 10px; /* Espacio interior */
+    border: 1px solid #dbdada; /* Borde de los inputs */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
+  span {
+    display: block; /* Mostrar como bloque */
+    margin-top: 10px; /* Espacio entre resultados */
+    font-size: 18px; /* Tamaño de fuente para resultados */
+    color: #ebbbbb; /* Color de texto */
+  }
+  .resultado-suma {
+    color: rgb(27, 231, 27);
+  }
+  
+  .resultado-resta {
+    color: red;
+  }
+  
